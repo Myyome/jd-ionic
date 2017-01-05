@@ -1,0 +1,44 @@
+<ion-view id="category" view-title="category">
+  <ion-header-bar align-title="left" class="bar-positive item-input-inset">
+    <div class="buttons" >
+      <button class="button icon ion-chevron-left button-clear" ng-click="goBack()"></button>
+    </div>
+     <label class="item-input-wrapper search ">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="search" placeholder="请搜索">
+      </label>
+    <div class="buttons">
+      <button class="button icon ion-navicon-round button-clear"></button>
+    </div>
+</ion-header-bar>
+  <ion-content scroll="false">
+      <ion-scroll id="category-left-box">
+        <div class="category-left">
+          <ul>
+            <li ng-repeat="item in categoryData" ng-class="{active:$index==0}"><a href="" ng-click="getCategoryDetailData(item.typeNumber);categoryLeftClick($event)">{{item.name}}</a></li>
+          </ul>
+        </div>
+    </ion-scroll>
+  <ion-scroll id="content-right-box">
+    <div class="content-right">
+      <div class="banner">
+        <img src="img/category/banner_1.jpg" alt="" />
+      </div>
+      <div class="product">
+        <div class="product-one">
+          <h4 class="title">热门分类</h4>
+          <ul class="clearfix">
+            <li ng-repeat="item in categoryDetailData"><a ui-sref="goodist({typeNumber:{{item.typeNumber}}})"><img ng-src="{{item.src}}" alt="" /><p>{{item.name}}</p></a></li>
+          </ul>
+        </div>
+        <div class="product-two">
+          <h4 class="title">热门分类</h4>
+          <ul class="clearfix">
+             <li ng-repeat="item in categoryDetailData"><a href="#"><img ng-src="{{item.src}}" alt="" /><p>{{item.name}}</p></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </ion-scroll>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,221 @@
+
+#home .icon-logo{
+	background-image: url(/img/home/sprites.png);
+	background-size: 200px 200px;
+	background-position: 0 -109px;
+	width: 60px;
+	height: 36px;
+	margin-top: 12px;
+}
+#home .search{
+	border-radius: 20px;
+	margin-left: 8px;
+}
+#home .bar-assertive{
+	background-color: rgba(202, 19, 33, 0.85);
+}
+
+#home .item-input-wrapper{
+	background-color:#fff;
+}
+
+#home .Carousel{
+
+}
+
+/* 导航 */
+#home #nav{
+	width: 100%;
+	height: 150px;
+	padding: 0 3.125%;
+	padding-top: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+#home #nav ul{
+
+}
+#home #nav ul li{
+	float: left;
+	width: 25%;
+	margin-bottom: 10px;
+}
+#home #nav ul li a{
+	color: #666;
+	text-align: center;
+	display: block;
+}
+#home #nav ul li img{
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+#home #nav ul li p{
+	width: 100%;
+	font-size: 12px;
+	margin: 0 auto;
+}
+#home .swiper-pagination-bullets{
+	bottom: 0;
+}
+
+/* 产品公共样式 */
+#jd-product{
+	width: 100%;
+}
+#jd-product .product-box{
+	margin-bottom: 10px;
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+}
+#jd-product .product-box .product-top{
+	height: 32px;
+	position: relative;
+}
+#jd-product .product-box .product-top h3{
+	color: #666;
+	font-size: 13px;
+	font-weight: inherit;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 16px;
+}
+#jd-product .product-box .product-top h3 +h3::before{
+	content: '';
+	width: 3px;
+	height: 12px;
+	background-color: #d8505c;
+	position: absolute;
+	top: 10px;
+	left: 8px;
+}
+#jd-product .product-box .product-bot{
+
+}
+/* 掌上秒杀 */
+#jd-product .miaosha{
+
+}
+#jd-product .miaosha .product-top h3{
+	color:#d8505c;
+	padding-left: 30px;
+}
+#jd-product .miaosha .product-top h3::after{
+	content: '';
+	background-image: url(/img/home/seckill-icon.png);
+	background-size: 16px 20px;
+	width: 16px;
+	height: 20px;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	
+}
+#jd-product .miaosha .product-top .time{
+	position: absolute;
+	height: 20px;
+	left: 90px;
+	top: 6px;
+}
+#jd-product .miaosha .product-top .time span{
+	
+}
+#jd-product .miaosha .product-top .time .num{
+	background-color: #333;
+	color: #fff;
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+}
+#jd-product .miaosha .product-top .time .str{
+	color: #000;
+	text-align: center;
+}
+#jd-product .miaosha .product-top a{
+	position: absolute;
+	right: 10px;
+	top: 0;
+	width: 45px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 15px;
+}
+#jd-product .miaosha .product-bot{
+	width: 100%;
+}
+#jd-product .miaosha .product-bot ul{
+	width: 100%;
+}
+#jd-product .miaosha .product-bot li{
+	width: 33.333%;
+	float: left;
+}
+#jd-product .miaosha .product-bot a{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+#jd-product .miaosha .product-bot .img-box {
+	
+	border-right: 1px solid #e0e0e0;
+}
+#jd-product .miaosha .product-bot li:last-child .img-box{
+	border: none;
+}
+#jd-product .miaosha .product-bot img{
+	width: 64%;
+}
+#jd-product .miaosha .product-bot .now-price{
+	color:#d8505c;
+	font-size: 12px;
+}
+#jd-product .miaosha .product-bot .old-price{
+	font-size: 12px;
+	color: #888;
+	text-decoration: line-through;
+}
+/*超值购 */
+
+#jd-product .czg .product-bot{
+	width: 100%;
+}
+#jd-product .czg .product-bot .czg-left{
+	width: 50%;
+	float: left;
+	border-right: 1px solid #e0e0e0;
+}
+#jd-product .czg .product-bot .czg-right{
+	float: right;
+	width: 50%;
+}
+#jd-product .czg .product-bot .czg-right:nth-of-type(2){
+	border-bottom: 1px solid #e0e0e0;
+}
+#jd-product .czg .product-bot a img{
+	width: 100%
+}
+#jd-product .czg .product-top h3{
+	width: 50%;
+	border-right: 1px solid #e0e0e0;
+}
+
+/* 热门活动 */
+ #jd-product .cp .product-bot{
+	width: 100%;
+}
+#jd-product .cp .product-bot .cp-right{
+	float: right;
+	width: 50%;
+}
+#jd-product .cp .product-bot .cp-left{
+	width: 49%;
+	float: left;
+}
+#jd-product .cp .product-bot a img{
+	width: 100%
+} 

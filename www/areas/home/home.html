@@ -1,0 +1,92 @@
+<ion-view view-title="home" id="home">
+ <ion-header-bar class="item-input-inset bar-assertive">
+      <span class="icon-logo"></span>
+      <label class="item-input-wrapper search">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="search" placeholder="请搜索">
+      </label>
+      <button class="button button-clear padding">
+        登录 
+      </button>
+    </ion-header-bar>
+  <ion-content>
+    <section class="Carousel">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="item in headerSlideData"><img ng-src="{{item.src}}" alt="{{item.alt}}" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <nav id="nav">
+      <ul>
+        <li><a href="category.html"><img src="img/home/nav0.png"><p>分类查询</p></a></li>
+        <li><a href=""><img src="img/home/nav1.png"><p>物流查询</p></a></li>
+        <li><a href="cart.html"><img src="img/home/nav2.png"><p>购物车</p></a></li>
+        <li><a href=""><img src="img/home/nav3.png"><p>我的京东</p></a></li>
+        <li><a href=""><img src="img/home/nav4.png"><p>充值</p></a></li>
+        <li><a href=""><img src="img/home/nav5.png"><p>领卷中心</p></a></li>
+        <li><a href=""><img src="img/home/nav6.png"><p>京东超市</p></a></li>
+        <li><a href=""><img src="img/home/nav7.png"><p>我的关注</p></a></li>
+      </ul>
+    </nav>
+
+    <div id="jd-product">
+      <section class="product-box miaosha">
+        <div class="product-top">
+          <h3>掌上秒杀</h3>
+          <div class="time">
+            <span class="num">0</span>
+            <span class="num">0</span>
+            <span class="str">:</span>
+            <span class="num">0</span>
+            <span class="num">0</span>
+            <span class="str">:</span>
+            <span class="num">0</span>
+            <span class="num">0</span>
+          </div>
+          <a href="">更多></a>
+        </div>
+        <div class="product-bot">
+          <ul class="clearfix">
+            <li><a href="">
+            <div class="img-box"><img src="img/home/detail02.jpg" alt="" /></div>
+            <p class="now-price">&yen;20.00</p>
+            <p class="old-price">&yen;200.00</p>
+            </a></li>
+            <li><a href="">
+            <div class="img-box"><img src="img/home/detail02.jpg" alt="" /></div>
+            <p class="now-price">&yen;20.00</p>
+            <p class="old-price">&yen;200.00</p>
+            </a></li>
+            <li><a href="">
+            <div class="img-box"><img src="img/home/detail02.jpg" alt="" /></div>
+            <p class="now-price">&yen;20.00</p>
+            <p class="old-price">&yen;200.00</p>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="product-box czg">
+        <div class="product-top">
+          <h3>超值购</h3>
+        </div>
+        <div class="product-bot clearfix">
+          <a class="czg-left" href=""><img src="img/home/cp1.jpg" alt="" /></a>
+          <a class="czg-right" href=""><img src="img/home/cp2.jpg" alt="" /></a>
+          <a class="czg-right" href=""><img src="img/home/cp3.jpg" alt="" /></a>
+        </div>
+      </section>
+      <section class="product-box cp">
+        <div class="product-top">
+          <h3>热门活动</h3>
+        </div>
+        <div class="product-bot clearfix">
+          <a class="cp-right" href=""><img src="img/home/cp4.jpg" alt="" /></a>
+          <a class="cp-left" href=""><img src="img/home/cp5.jpg" alt="" /></a>
+          <a class="cp-left" href=""><img src="img/home/cp6.jpg" alt="" /></a>
+        </div>
+      </section>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,113 @@
+#category ion-header-bar{
+	border: 1px solid #e0e0e0;
+}
+#category .item-input-wrapper {
+	margin-left: 25px;
+	margin-right: 20px;
+	background-color: #fff;
+	border-radius: 6px;
+	border:1px solid #ccc;	}
+#category .bar-positive{
+	background: url(/img/category/header-bg.png) repeat-x;
+	background-size: 1px 45px;
+	z-index: 1000;
+}
+#category .bar-positive .button.button-clear{
+	color: #ccc;
+}
+
+/* 分类 */
+#category-left-box{
+	width: 90px;
+	height: 100%;
+	position: absolute;
+	z-index: 99;
+}
+#category-left-box .category-left{
+	width: 90px;
+}
+#category-left-box .category-left ul{
+	width: 90px;
+}
+#category-left-box .category-left li{
+	width: 90px;
+	height: 50px;
+	background-color: #f3f4f6;
+}
+#category-left-box .category-left li.active{
+	background-color: #fff;
+}
+#category-left-box .category-left li.active a{
+	color: #f15353;
+	border-right: none;
+}
+#category-left-box .category-left a{
+	width: 100%;
+	height: 100%;
+	border-bottom: #e0e0e0 1px solid;
+	border-right: #e0e0e0 1px solid;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+	color: #000;
+	text-decoration: none;
+}
+
+/* 具体对应的内容 */
+#content-right-box{
+	width: 100%;
+	height: 100%;
+	padding-left: 90px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+#content-right-box .content-right{
+	width: 100%;
+}
+#content-right-box .content-right .banner{
+	width: 100%;
+	text-align: center;
+	margin:10px 0;
+	padding: 0 10px;
+}
+
+#content-right-box .content-right .banner img{
+	width: 100%;
+}
+#content-right-box .content-right .product{
+	width: 100%;
+	margin-top: 10px;
+}
+.content-right .product .product-one{
+	width: 100%;
+}
+.content-right .product .title{
+	color: #888;
+	font-size: 14px;
+	font-weight: inherit;
+	padding:10px 10px;
+}	
+.content-right .product ul{
+
+}
+.content-right .product li{
+	width: 33.333%;
+	margin-bottom: 10px;
+	float: left;
+}
+.content-right .product a{
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+.content-right .product img{
+	width: 100%;
+}
+.content-right .product p{
+	margin-top: 10px;
+	font-size: 12px;
+}

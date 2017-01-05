@@ -1,0 +1,13 @@
+#guide{
+
+}
+#guide .swiper-slide .begin{
+	position: absolute;
+	width: 50%;
+	z-index: 999;
+	color: #c0b774;
+	bottom: 30px;
+	background-color: transparent;
+	border:1px solid #c0b774;
+	border-radius: 10px;
+}
